@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+}
+#result{
+    height: 120px;
+}
+#history{
+    height: 20px;
+    color: #919191;
+}
+#output{
+    height: 60px;
+}
+#keyboard{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.operator, .number, .empty{
+    border-radius: 50%;
+    border: 0;
+}
+.empty, .number{
+    background-color: white;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+button:nth-child(4){
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    background-color: #ffa500;
+}
+button:nth-child(12){
+    background-color: #f08080;
+}
+button:nth-child(16){
+    background-color: #7d93e0;
+}
+button:nth-child(20){
+    background-color: #9477af;
+}
